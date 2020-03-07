@@ -1,7 +1,7 @@
 # Covid19GermanyEstimates
 Estimating the spread of Covid19 in Germany
 
-#Model
+# Model
 
 Numerical model is based on the formulae suggested in this paper:
 https://arxiv.org/ftp/arxiv/papers/1512/1512.01389.pdf
