@@ -16,14 +16,14 @@ I then offset the estimated data by -7 days in order to get a glimpse on what th
 
 ![Model vs Actual Data](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/ModelVsActualData.PNG)
 
-## Model vs 7 Day Lag period
+## Model vs 3 Day Lag period
 
-![Model vs 7 Day Lag period](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/ModeledInfectionsVs7DayLag.PNG)
+![Model vs 3 Day Lag period](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/ModeledInfectionsVs7DayLag.PNG)
 
-## Model vs 7 Day Lag period with standard error
+## Model vs 3 Day Lag period with standard error
 
-![Model vs 7 Day Lag period with standard error](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/ModeledInfectionsVs7DayLagWithStandardError.PNG)
+![Model vs 3 Day Lag period with standard error](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/ModeledInfectionsVs7DayLagWithStandardError.PNG)
 
-## 7 Day Lag Model on calendar dates
+## 3 Day Lag Model on calendar dates
 
 ![Model vs 7 Day Lag period with standard error](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/7DayLagModelCalendarDates.PNG)
