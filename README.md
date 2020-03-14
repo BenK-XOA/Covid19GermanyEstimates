@@ -14,6 +14,7 @@ This model therefore should only be used as a rough estimate of "how bad will sh
 ## Current Formulae and Parameters
 
 ![equation](https://latex.codecogs.com/gif.latex?r\cdot%20[(\frac{r}{m}\cdot%20t%20+%20a)^m%20]%20^p%20+%20d)
+
 ![equationparameters](https://latex.codecogs.com/gif.latex?with%3A%5C%2C%20%5C%2C%20r%20%3D%201%2C00%3B%5C%2C%20m%20%3D%2020%3B%5C%2C%20a%20%3D%201%2C482542%3B%5C%2C%20p%20%3D%200%2C518331%3B%5C%2C%20d%20%3D%20-25%2C1005%5C%2C)
 
 ## Sources for Model
