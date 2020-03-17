@@ -20,9 +20,9 @@ Once I'm confident that this is going on in germany, I'll update this model and 
 
 ## Current Formulae and Parameters
 
-![equation](https://latex.codecogs.com/gif.latex?Cases(t)=%20r\cdot%20[(\frac{r}{m}\cdot%20t%20+%20a)^m%20]%20^p%20+%20d)
+![equation](https://latex.codecogs.com/gif.latex?Cases(t)=%20r\cdot%20[(\frac{r}{m}\cdot%20t%20+%20a)^m%20]%20^p%20)
 
-![equationparameters](https://latex.codecogs.com/gif.latex?with:%20r=1,00;%20m=%2020,58618;%20a=%201,426367;%20p=%200,532795;%20d=%20-18,2869;)
+![equationparameters](https://latex.codecogs.com/gif.latex?with:%20r=1,00;%20m=%2020,58618;%20a=%201,426367;%20p=%200,532795;)
 
 and with t being the day starting at 0. Model parameters were fitted with 28.02.2020 being day 0 (here, case number hit 50+ cases).
 
