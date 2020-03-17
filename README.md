@@ -3,11 +3,18 @@ Estimating the spread of Covid19 in Germany.
 
 # How to interpret this model
 
+## The basics
 This is merely a mathematical prediction based on the number of reported cases and a model developed using outbreaks of other illnesses such as ebola. The biggest issue is that I'm fitting my model to the number of reported cases. This means the predictions are heavily influenced by the way cases are found through testing. Thus, unless germany is testing a sample size much larger than the actual outbreak, my prediction will not accurately predict the real number of infections and could be influenced by a number of factors. 
 For example, my model (and the actual data) seems to predict around 3 days case doubling. While this matches what other countries are seeing in their screenings, it is not a reliable way to predict the actual growth of the outbreak. 
 There have been a number of studies that are trying to simulate the outbreak using highly complex simulations and their finding usually amounts to a case doubling period of 5-7 days.
 A shorter case doubling rate in germanys data might imply that we're catching up with the real number of cases or that due to societal factors the cases are actually doubling faster in germany currently or a number of other things. 
 This model therefore should only be used as a rough estimate of "how bad will shit hit the fan?" and not for any other purposes.
+
+## An outlook
+
+In reality, exponential spread never lasts forever. An infection is spread exponentially in a tight-nit community at first, but once the infection has infected most people in that local cluster, it has to overcome tougher barriers. Looking at the r0 and estimating the infections for a whole country is useless in this regard, since a country isn't homogenous and this would also assume that there is always someone to infect around, even if that someone lives houndreds of miles away. This is why looking at an r0 of 3 and estimating it to infect 70% of a countries' population is completely wrong, especially if active countermeasures are taken to limit the spread of the disease.
+To better model the current wave of infections in germany, I will switch over to a logistic model in the near future. A logistic model can perfectly describe how an infection levels off once local clusters stop growing exponentially and countermeasures show their effectiveness. In order to fit a logistic curve to the data, it is necessary to see a couple days of %-growth starting to decline and estimating a turning point from this. 
+Once I'm confident that this is going on in germany, I'll update this model and will try to estimate maximum number of infections for this wave of infections. 
 
 # Model
 
