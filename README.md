@@ -15,7 +15,7 @@ This model therefore should only be used as a rough estimate of "how bad will sh
 
 ## Current Formulae and Parameters
 
-### Polinomial Model
+### Polynomial Model
 
 ![equation](https://latex.codecogs.com/gif.latex?Cases(t)=%20r\cdot%20[(\frac{r}{m}\cdot%20t%20+%20a)^m%20]%20^p%20)
 
@@ -51,7 +51,7 @@ This is the second model which better models the decline of the exponential phas
 
 ![Model vs Actual Data](https://github.com/BenK-XOA/Covid19GermanyEstimates/blob/master/Covid19_Germany_Estimates/Graph_Pictures_08-03-2020/Logistical%20Model.png)
 
-## Polinomial Model
+## Polynomial Model
 
 ### Model vs Actual Data:
 
