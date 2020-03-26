@@ -39,10 +39,11 @@ Currently, the situation in germany is difficult in that counting is decentraliz
 ### Logistic Model
 
 This is the second model which better models the decline of the exponential phase of the epidemic. This is the model I'll keep updating from now on, as it converges better with actual data currently.
+I also included a linear component into the logistic model in order to predict unknown cases which leads to a slightly lower r^2 error.
 
-![equation](https://latex.codecogs.com/gif.latex?Cases(t)=%20a/%20[1%20+%20exp%20(-b%20*%20(x%20-c))])
+![equation](https://latex.codecogs.com/gif.latex?Cases(t)=%20a%20*%200,5%20/%20%20[0,5%20+%20(a%20-%200,5)%20*%20exp%20(-b%20*%20a%20*%20%20(x%20-c))]%20-%20(d%20*%20x%20+%20e))
 
-![equationparameters](https://latex.codecogs.com/gif.latex?with:%20a=42206,05357;%20b=0,318503618;%20c=22;)
+![equationparameters](https://latex.codecogs.com/gif.latex?with%3A%20a%3D55884%2C12355%3B%20b%3D4%2C90955%20*%2010%7B%5E%7B-6%7D%7D%3B%20c%3D-19%3B%20d%20%3D%2026%2C72556%3B%20e%20%3D%202%2C50286*10%7B%5E%7B-7%7D%7D)
 
 
 # Current Estimates
